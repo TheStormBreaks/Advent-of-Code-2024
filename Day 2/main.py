@@ -15,4 +15,16 @@ for report in reports:
 print(f"Number of safe reports: {safe_count}")
 
 
+def dampner(report):
+    for i in range(len(report)):
+        safer_report = report[:i] + report[i + 1:]
+        if safe(safer_report):
+            return True
+    return False
 
+dampner_safe_counts = 0
+for report in reports:
+    if dampner(report):
+        dampner_safe_counts += 1
+
+print(f"Number of safe reports with dampner: ", dampner_safe_counts)
