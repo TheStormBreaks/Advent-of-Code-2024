@@ -9,6 +9,7 @@ mul_pattern = re.compile(r'mul\((\d+),(\d+)\)')
 do_pattern = re.compile(r'do\(\)')
 dont_pattern = re.compile(r"don't\(\)")
 
+
 # Variables to track state and total sum
 is_enabled = True  # Mul instructions are initially enabled
 total_sum = 0
