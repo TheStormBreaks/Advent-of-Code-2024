@@ -15,6 +15,7 @@ dont_pattern = re.compile(r"don't\(\)")
 
 is_enabled = True  
 enabled_sum = 0
+
 total_sum = 0
 
 # Process each map for mul
