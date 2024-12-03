@@ -1,6 +1,5 @@
 import re
 
-#sync check
 
 # Read the corrupted memory input from a file
 with open("Day 3\input.txt", "r") as file:
