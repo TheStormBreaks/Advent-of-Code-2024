@@ -11,7 +11,7 @@ mul_pattern = re.compile(r'mul\((\d+),(\d+)\)')
 do_pattern = re.compile(r'do\(\)')
 dont_pattern = re.compile(r"don't\(\)")
 
-
+#######
 
 is_enabled = True  
 enabled_sum = 0
